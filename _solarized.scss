@@ -23,11 +23,11 @@ $blue:      rgb(38, 139, 210);
 $cyan:      rgb(42, 161, 152);
 $green:     rgb(133, 153, 0);
 
-@mixin solarized-light() {
+@mixin solarized-dark() {
     background-color: $base03;
     color: $base0;
 }
-@mixin solarized-dark() {
+@mixin solarized-light() {
     background-color: $base3;
     color: $base00;
 }
